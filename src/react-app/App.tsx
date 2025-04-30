@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaTools, FaTree, FaPaintRoller, FaWrench, FaShieldAlt, FaCheckCircle, FaCertificate, FaAward, FaMedal, FaBars, FaTimes } from 'react-icons/fa';
-import ImageCarousel from './components/ImageCarousel';
 import Share from './pages/Share';
 import "./App.css";
 
@@ -153,7 +152,6 @@ function MainContent() {
 
         <section className="services" id="services">
           <h2>Our Services</h2>
-          <ImageCarousel />
           <div className="service-grid">
             <div className="service-card">
               <div className="service-content">
