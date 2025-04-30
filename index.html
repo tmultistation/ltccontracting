@@ -1,14 +1,251 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
+    <link rel="icon" type="image/png" href="/images/logo_mark_blue.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo_mark_blue.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/logo_mark_blue.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/logo_mark_blue.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#1e3c72">
+    
+    <!-- Primary Meta Tags - Dynamic titles will override these -->
+    <title>LTC Contracting</title>
+    <meta name="title" content="">
+    <meta name="description" content="">
+    
+    <!-- Open Graph / Facebook / iMessage -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ltc-contracting.com/">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://ltc-contracting.com/images/image.png">
+    <meta property="og:image:width" content="2583">
+    <meta property="og:image:height" content="1979">
+    <meta property="og:image:alt" content="LTC Contracting team offering quality handyman and general contracting services">
+    <meta property="og:site_name" content="LTC Contracting LLC">
+    <meta property="og:locale" content="en_US">
 
+    <!-- iMessage Specific -->
+    <meta property="og:image:type" content="image/png">
+
+    <!-- WhatsApp -->
+    <meta property="og:image:secure_url" content="https://ltc-contracting.com/images/image.png">
+    
+    <!-- Snapchat -->
+    <meta property="snapchat:sticker" content="https://ltc-contracting.com/images/image.png">
+    
+    <!-- Pinterest -->
+    <meta name="pinterest:image" content="https://ltc-contracting.com/images/image.png">
+    <meta name="pinterest:description" content="Professional handyman services and general contracting in Rhode Island. One call for all your home repair and renovation needs.">
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ltccontracting">
+    <meta name="twitter:url" content="https://ltc-contracting.com/">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://ltc-contracting.com/images/image.png">
+    <meta name="twitter:image:alt" content="LTC Contracting team offering quality handyman and general contracting services">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="keywords" content="Rhode Island handyman, home repairs, general contracting, home renovation, handyman services, bathroom remodeling, kitchen remodeling, Rhode Island contractor, Providence handyman, Warwick handyman, Newport handyman, registered contractor, insured contractor, residential maintenance, commercial maintenance, RI Registration GC-46778, home improvement">
+    <meta name="author" content="LTC Contracting LLC">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="geo.region" content="US-RI">
+    <meta name="geo.placename" content="Rhode Island">
+    <meta name="geo.position" content="41.8240;-71.4128">
+    <meta name="ICBM" content="41.8240, -71.4128">
+    
+    <!-- iOS App Banner -->
+    <meta name="apple-itunes-app" content="app-id=YOUR_APP_ID,app-argument=https://ltc-contracting.com/">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ltc-contracting.com/">
+
+    <!-- Preconnect to important third-party domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "LTC Contracting LLC",
+        "image": "https://ltc-contracting.com/images/image.png",
+        "logo": "https://ltc-contracting.com/images/logo_full_transparent.png",
+        "description": "Professional handyman services and general contracting in Rhode Island. Quality home repairs, renovations, and improvement solutions.",
+        "@id": "https://ltc-contracting.com",
+        "url": "https://ltc-contracting.com",
+        "telephone": "(401) 749-8042",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "RI",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.8240,
+          "longitude": -71.4128
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Providence"
+          },
+          {
+            "@type": "City",
+            "name": "Warwick"
+          },
+          {
+            "@type": "City",
+            "name": "Newport"
+          },
+          {
+            "@type": "State",
+            "name": "Rhode Island"
+          }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/ltccontracting",
+          "https://www.instagram.com/ltccontracting"
+        ],
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "18:00"
+        },
+        "priceRange": "$$",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Handyman & General Contracting",
+          "itemListElement": [
+            {
+              "@type": "OfferCatalog",
+              "name": "General Contracting",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Kitchen Remodeling"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Bathroom Remodeling"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Home Renovations"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Additions & Extensions"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "OfferCatalog",
+              "name": "Handyman Services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Home Repairs"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Deck & Fence Repairs"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Door & Window Installation"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    </script>
+
+    <!-- Additional Mobile-First Meta Tags -->
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="LTC Contracting">
+    
+    <!-- Script to handle dynamic page title for /share page -->
+    <script>
+      // Immediately set title for share page
+      if (window.location.pathname.includes('/share')) {
+        document.title = "ABOUT LIAM CAHOON - Professional Networking Profile";
+        
+        // Set other meta tags for share page
+        const metaTags = document.getElementsByTagName('meta');
+        for (let i = 0; i < metaTags.length; i++) {
+          if (metaTags[i].getAttribute('property') === 'og:title') {
+            metaTags[i].setAttribute('content', 'ABOUT LIAM CAHOON | Professional Network');
+          }
+          if (metaTags[i].getAttribute('property') === 'og:description') {
+            metaTags[i].setAttribute('content', 'ABOUT LIAM CAHOON: Owner of LTC Contracting LLC. Connect with Liam for contracting opportunities in Rhode Island.');
+          }
+          if (metaTags[i].getAttribute('name') === 'description') {
+            metaTags[i].setAttribute('content', 'ABOUT LIAM CAHOON: Owner of LTC Contracting. Professional contractor in Rhode Island for networking and business opportunities.');
+          }
+        }
+      } else {
+        // Set main site title and meta tags
+        document.title = "LTC Contracting | Rhode Island Handyman & General Contracting";
+        
+        const metaTags = document.getElementsByTagName('meta');
+        for (let i = 0; i < metaTags.length; i++) {
+          if (metaTags[i].getAttribute('name') === 'title') {
+            metaTags[i].setAttribute('content', 'LTC Contracting | Rhode Island Handyman & General Contracting');
+          }
+          if (metaTags[i].getAttribute('name') === 'description') {
+            metaTags[i].setAttribute('content', 'Your trusted Rhode Island handyman and general contractor. Professional home repairs, renovations, and improvement services. RI Registration #GC-46778.');
+          }
+          if (metaTags[i].getAttribute('property') === 'og:title') {
+            metaTags[i].setAttribute('content', 'LTC Contracting | Rhode Island Handyman & General Contracting');
+          }
+          if (metaTags[i].getAttribute('property') === 'og:description') {
+            metaTags[i].setAttribute('content', 'Professional handyman services and general contracting in Rhode Island. One call for all your home repair and renovation needs. Registered (#GC-46778).');
+          }
+        }
+      }
+    </script>
+  </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/react-app/main.tsx" nonce="MTk1NDMyNTQ1MywyNTA0MDA1NzI="></script>
+    <script type="module" src="/src/react-app/main.tsx"></script>
   </body>
 </html>

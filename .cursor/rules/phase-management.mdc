@@ -1,0 +1,71 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Phase Management Guidelines
+
+## Phase 1: Template Reconfiguration
+Current focus: Setting up the foundation for LTC Contracting website
+
+### Phase 1 Validation Rules
+1. Project Structure
+   - All directories must match master plan structure
+   - Each component directory must have index file
+   - Type definitions must be complete
+
+2. Development Environment
+   - All configs must be properly set
+   - Dependencies must be documented
+   - Build process must be verified
+
+3. Component Setup
+   - Base components must be tested
+   - Routing must be configured
+   - Layouts must be responsive
+
+### Phase Completion Checklist
+```markdown
+Before moving to next phase:
+1. ✓ All Phase 1 tasks completed
+2. ✓ No TypeScript errors
+3. ✓ Build succeeds
+4. ✓ Development server runs
+5. ✓ Base components render
+```
+
+## Inter-Phase Dependencies
+Track dependencies between phases:
+```
+Phase 1 ──┐
+          ├─> Phase 2 ──┐
+          │             ├─> Phase 4
+Phase 3 ──┘             │
+                        │
+          Phase 5 <─────┘
+```
+
+## Quality Gates
+Each phase must pass these gates:
+1. Code Quality
+   - No TypeScript errors
+   - ESLint passes
+   - Tests pass
+
+2. Documentation
+   - README updated
+   - Comments complete
+   - Types documented
+
+3. Performance
+   - Builds successfully
+   - No console errors
+   - Responsive design works
+
+## Reference Files
+Key files to check during development:
+- [package.json](mdc:package.json) - Dependencies
+- [tsconfig.json](mdc:tsconfig.json) - TypeScript config
+- [vite.config.ts](mdc:vite.config.ts) - Build config
+- [src/react-app/App.tsx](mdc:src/react-app/App.tsx) - Main app
+- [docs/planning/masterplan.md](mdc:docs/planning/masterplan.md) - Master plan

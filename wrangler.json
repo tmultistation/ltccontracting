@@ -10,5 +10,15 @@
   "upload_source_maps": true,
   "assets": {
     "not_found_handling": "single-page-application"
-  }
+  },
+  "routes": [
+    {
+      "pattern": "ltc-contracting.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.ltc-contracting.com", 
+      "custom_domain": true
+    }
+  ]
 }
